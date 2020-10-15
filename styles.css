@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
+
+body {
+    display: flex; 
+    text-align: center;
+    }
+
+.left {
+    display: flex;
+    margin-left: 5em;
+    }
+
+.right {
+    flex: 1;
+    margin-right: 5em;
+    background-color: black;
+    transition: 1s;
+    background-image: url(https://wallpapercave.com/wp/wp2662999.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+#title{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#description{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid black;
+  }
+
+h1,h2,p,label,::placeholder,option{
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+label {
+    margin-block-start: 1em;
+    margin-block-end: 5px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    }
+
+.container {
+    display: inline-block;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    padding: 1em 2em;
+    border-radius: .35em;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.60), 0 15px 15px rgba(0,0,0,0.60);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 5px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.form-group{
+    display: block;
+    margin-block-start: 5px;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+
+.form-control {
+    display: block;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+    width: 90%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+#submit{
+    background: #3786bd;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 50%;
+    height: 2em;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+@media (min-width: 768px)
+.body {
+    max-width: 600px;
+}
+@media (min-width: 400px)
+.body {
+    max-width: 320px;
+}
